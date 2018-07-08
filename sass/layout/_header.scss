@@ -1,0 +1,93 @@
+.header {
+    height: 100vh;
+    padding: 1px;
+    background-image: linear-gradient(rgba(0, 0, 0 , .4), rgba(0, 0, 0 , .4)),
+                      url("../../img/store_front.jpg");
+    background-size: cover;
+    
+    &__navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+        margin-top: 1.5rem;
+        
+        h1 {
+            color: white;
+            font-size: 1.5rem;
+        }
+    }
+    
+    .navigation {
+        
+        &__list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            
+            &--item {
+                font-size: 1.1rem;
+                margin: 0 1rem;
+                
+                a {
+                    text-decoration: none;
+                    color: darken(white, 25%);
+                }
+                
+                a:hover {
+                    color: white;
+                }
+            }
+            
+            &--item:first-child {
+                
+                a {
+                    color: white;
+                  }
+                }
+        }
+    }
+    
+    &__heading {
+        text-align: center;
+        margin-top: 16rem;
+        
+        h1 {
+            font-size: 4.2rem;
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        p {
+            font-size: 1.3rem;
+            color: darken(white, 25%);
+            margin-top: 0;
+        }
+        
+        button {
+            background: transparent;
+            color: white;
+            border: .2rem solid white;
+            padding: 1rem 3rem;
+            font-size: 1.1rem;
+            margin-top: 2rem;
+            transition: background-color .3s;
+        }
+        
+        button:hover {
+            background-color: darken(white, 5%);
+            color: black;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

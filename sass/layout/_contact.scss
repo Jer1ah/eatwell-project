@@ -1,0 +1,96 @@
+.contact {
+    background-color: lighten(gray, 48%);
+    padding: 1px;
+    
+    &__heading {
+        text-align: center;
+        margin: 6rem auto 3rem;
+        
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: .7rem;
+        }
+        
+        h3 {
+            width: 40%;
+            margin: 0 auto;
+            color: lighten(gray, 30%);
+            line-height: 2rem;
+            font-size: 1.3rem
+        }
+    }
+    
+    &__flex {
+        width: 75%;
+        margin: 5rem auto 7rem;
+        display: flex;
+        
+        &--form {
+            flex: 2;
+            
+            form {
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+                
+                input[type="text"] {
+                    border: none;
+                    height: 3.5rem;
+                    background: lighten(gray, 40%);
+                    margin: .5rem 0;
+                    padding-left: .5rem;
+                    font-size: 1.3rem;
+                }
+                            
+               ::placeholder {
+                    color: lighten(gray, 20%);
+                }
+                
+                textarea {
+                    height: 14rem;
+                    background-color: lighten(gray, 40%);
+                    color: lighten(gray, 20%);
+                    font-size: 1.3rem;
+                    padding-left: .5rem;
+                    border: none;
+                    margin-top: .5rem;
+                    padding-top: .4rem;
+                }
+                
+                button {
+                    width: 30%;
+                    border: none;
+                    background-color: orange;
+                    color: white;
+                    padding: 1.1rem .8rem;
+                    margin: 1rem 0 2rem;
+                    font-size: .9rem;
+                }
+            }
+        }
+        
+        &--address {
+            flex: 1;
+            
+            h4 {
+                margin: .3rem 0;
+                font-size: 1.2rem;
+            }
+            
+            .mt {
+                margin-top: 2rem;
+            }
+            
+            img {
+                width: 80%;
+                margin-bottom: 1rem;
+            }
+            
+            a {
+                color: orange;
+                text-decoration: none;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
