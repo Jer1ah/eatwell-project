@@ -1,0 +1,118 @@
+.footer {
+    background-color: lighten(black, 18%);
+    padding: 1px;
+    height: 45rem;
+    
+    &__flex {
+        width: 70%;
+        margin: 5rem auto 5rem;
+        
+        &--info {
+            display: flex;
+            flex-direction: row;
+            height: 20rem;
+        }
+        
+        &--social {
+            margin-top: 0;
+            
+            &--icons {
+                display: flex;
+                justify-content: center;
+                margin-top: 2rem;
+                
+                &--div {
+                    margin: 0 .5rem;
+                    width: 4rem;
+                    height: 4rem;
+                    border-radius: 50%;
+                    background-color: lighten(black, 23%);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                img {
+                    width: 1.5rem;
+                }
+            }
+            
+            p {
+                text-align: center;
+                color: lighten(gray, 18%);
+                font-size: 1.3rem;
+                margin-top: 4rem;
+            }
+        }
+    }
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 20rem;
+            margin-left: 0;
+            
+            p {
+                line-height: 1.5rem;
+                color: lighten(gray, 5%);
+                margin-top: .7rem;
+            }
+            
+            h3 {
+                color: lighten(gray, 25%);
+                margin-bottom: 0;
+            }
+        }
+        
+        .restaurant {
+            display: flex;
+            flex-direction: column;
+            width: 12rem;
+            margin: 0 auto;
+            margin-left: 2rem;
+            
+            h3 {
+                color: lighten(gray, 25%);
+            }
+            
+            a {
+                text-decoration: none;
+                color: lighten(gray, 5%);
+                margin: .5rem 0;
+            }
+        }
+        
+        .links {
+            display: flex;
+            justify-content: center; 
+            margin-right: 0;
+            
+            h3 {
+                color: lighten(gray, 25%);
+            }
+            
+            a {
+                text-decoration: none;
+                color: lighten(gray, 5%);
+                margin: .5rem 0;
+            }
+        }
+        
+        .links1 {
+            display: flex;
+            flex-direction: column;
+            width: 10rem;
+        }
+        
+        .links2 {
+            display: flex;
+            flex-direction: column;
+            width: 10rem;
+     }
+  }
+
+
+
+
+

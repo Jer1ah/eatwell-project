@@ -369,3 +369,81 @@ html, body {
         color: orange;
         text-decoration: none;
         font-size: 1.2rem; }
+
+.footer {
+  background-color: #2e2e2e;
+  padding: 1px;
+  height: 45rem; }
+  .footer__flex {
+    width: 70%;
+    margin: 5rem auto 5rem; }
+    .footer__flex--info {
+      display: flex;
+      flex-direction: row;
+      height: 20rem; }
+    .footer__flex--social {
+      margin-top: 0; }
+      .footer__flex--social--icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem; }
+        .footer__flex--social--icons--div {
+          margin: 0 .5rem;
+          width: 4rem;
+          height: 4rem;
+          border-radius: 50%;
+          background-color: #3b3b3b;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        .footer__flex--social--icons img {
+          width: 1.5rem; }
+      .footer__flex--social p {
+        text-align: center;
+        color: #aeaeae;
+        font-size: 1.3rem;
+        margin-top: 4rem; }
+  .footer .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 20rem;
+    margin-left: 0; }
+    .footer .about p {
+      line-height: 1.5rem;
+      color: #8d8d8d;
+      margin-top: .7rem; }
+    .footer .about h3 {
+      color: silver;
+      margin-bottom: 0; }
+  .footer .restaurant {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    margin: 0 auto;
+    margin-left: 2rem; }
+    .footer .restaurant h3 {
+      color: silver; }
+    .footer .restaurant a {
+      text-decoration: none;
+      color: #8d8d8d;
+      margin: .5rem 0; }
+  .footer .links {
+    display: flex;
+    justify-content: center;
+    margin-right: 0; }
+    .footer .links h3 {
+      color: silver; }
+    .footer .links a {
+      text-decoration: none;
+      color: #8d8d8d;
+      margin: .5rem 0; }
+  .footer .links1 {
+    display: flex;
+    flex-direction: column;
+    width: 10rem; }
+  .footer .links2 {
+    display: flex;
+    flex-direction: column;
+    width: 10rem; }
