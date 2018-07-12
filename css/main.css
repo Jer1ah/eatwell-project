@@ -11,6 +11,17 @@ html, body {
   padding: 1px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/store_front.jpg");
   background-size: cover; }
+  .header .phone__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+    display: none; }
+    .header .phone__nav img {
+      width: 1.2rem;
+      margin-right: .4rem; }
+    .header .phone__nav p {
+      color: #bfbfbf; }
   .header__navbar {
     display: flex;
     justify-content: space-between;
@@ -59,6 +70,47 @@ html, body {
       color: black;
       cursor: pointer; }
 
+/*-- MEDIA QUERIES --*/
+@media (max-width: 1100px) {
+  .header__navbar {
+    width: 85%; } }
+
+@media (max-width: 990px) {
+  .header__navbar {
+    width: 100%;
+    margin-top: 0;
+    background-color: black;
+    flex-direction: column; }
+    .header__navbar .phone {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center; }
+    .header__navbar h1 {
+      margin-left: 4rem; }
+    .header__navbar .navigation {
+      display: none;
+      align-self: flex-start;
+      margin-left: 4rem; }
+      .header__navbar .navigation__list {
+        flex-direction: column;
+        margin-top: 0; }
+        .header__navbar .navigation__list li {
+          margin: .7rem 0; }
+    .header__navbar .phone__nav {
+      display: flex; }
+    .header__navbar .phone__nav:hover {
+      cursor: pointer; } }
+
+@media (max-width: 770px) {
+  .header__heading {
+    width: 80%;
+    margin: 16rem auto; }
+    .header__heading button {
+      width: 100%; }
+    .header__heading h1 {
+      font-size: 3rem; } }
+
 .about {
   display: flex;
   height: 40rem;
@@ -99,6 +151,17 @@ html, body {
       background-color: orange;
       color: white;
       cursor: pointer; }
+
+@media (max-width: 1200px) {
+  .about img {
+    width: 100%; } }
+
+@media (max-width: 770px) {
+  .about {
+    flex-direction: column;
+    height: auto; }
+    .about__photo {
+      margin: 2rem auto 5rem; } }
 
 .offers {
   height: 65rem;
@@ -169,6 +232,41 @@ html, body {
       margin: 0 .5rem; }
     .offers__nav .active {
       background-color: orange; }
+
+/*-- MEDIA QUERIES --*/
+@media (max-width: 1200px) {
+  .offers {
+    margin-top: 5rem; }
+    .offers__slider {
+      width: 90%;
+      mine-width: 300px; } }
+
+@media (max-width: 990px) {
+  .offers__slider .tablet {
+    display: none; }
+  .offers__nav {
+    padding-bottom: 3rem; } }
+
+@media (max-width: 700px) {
+  .offers__heading h1 {
+    font-size: 2.2rem; }
+  .offers__heading h3 {
+    font-size: 1.3rem; }
+  .offers__heading p {
+    width: 75%;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    text-align: center; }
+  .offers__slide {
+    width: 70%;
+    margin: auto; }
+    .offers__slide .phone {
+      display: none; } }
+
+@media (max-width: 530px) {
+  .offers__slide {
+    width: 100%; } }
 
 .menu__heading {
   text-align: center;
@@ -403,26 +501,28 @@ html, body {
         color: #aeaeae;
         font-size: 1.3rem;
         margin-top: 4rem; }
-  .footer .about {
+  .footer .about__info {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 20rem;
-    margin-left: 0; }
-    .footer .about p {
+    margin-top: 1rem;
+    margin-left: 0;
+    max-width: 28rem; }
+    .footer .about__info p {
       line-height: 1.5rem;
       color: #8d8d8d;
       margin-top: .7rem; }
-    .footer .about h3 {
-      color: silver;
-      margin-bottom: 0; }
+    .footer .about__info h3 {
+      color: #b3b3b3;
+      margin-bottom: 0;
+      letter-spacing: 0; }
   .footer .restaurant {
     display: flex;
     flex-direction: column;
     width: 12rem;
     margin: 0 auto;
-    margin-left: 2rem; }
+    margin-left: 6rem; }
     .footer .restaurant h3 {
       color: silver; }
     .footer .restaurant a {

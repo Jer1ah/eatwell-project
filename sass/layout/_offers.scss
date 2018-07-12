@@ -100,8 +100,72 @@
 }
 
 
+/*-- MEDIA QUERIES --*/
 
+@media( max-width: 1200px ) {
+    .offers {
+        margin-top: 5rem;
+        
+        &__slider {
+            width: 90%;
+            mine-width: 300px;
+        }
+    }
+}
 
+@media( max-width: 990px ) {
+    .offers {
+        
+        &__slider {
+        
+        .tablet {
+            display: none;
+        }
+    }
+        
+        &__nav {
+            padding-bottom: 3rem;
+        }
+  }
+}
+
+@media( max-width: 700px ) {
+    .offers {
+        
+        &__heading {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            h3 {
+                font-size: 1.3rem;
+            }
+            
+            p {
+                width: 75%;
+                margin-top: 1rem;
+                font-size: 1.2rem;
+                line-height: 1.7rem;
+                text-align: center;
+            }
+        }
+        
+        &__slide {
+        width: 70%;
+        margin: auto;
+        
+        .phone {
+            display: none;
+        }
+    }
+  }
+}
+
+@media( max-width: 530px ) {
+    .offers__slide {
+        width: 100%;
+    }
+}
 
 
 
