@@ -64,3 +64,55 @@
         }
     }
 }
+
+
+/*-- MEDIA QUERIES --*/
+
+@media( max-width: 1200px ) {
+    .news__blogs {
+        width: 80%;
+    }
+}
+
+@media( max-width: 990px ) {
+    .news__blogs {
+        width: 90%;
+    }
+}
+
+@media( max-width: 770px ) {
+    .news {
+        &__heading {
+            h1 {
+                font-size: 2.2rem;
+                margin-bottom: 0;
+            }
+            
+            h3 {
+                width: 80%;
+                margin-top: .3rem;
+            }
+        }
+        
+        &__blogs {
+            flex-direction: column;
+            width: 70%;
+            
+            &--blog {
+                margin: 1rem auto;
+            }
+        }
+    }
+}
+
+@media( max-width: 480px ) {
+    .news__blogs {
+        width: 90%;
+    }
+}
+
+
+
+
+
+

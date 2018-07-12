@@ -41,3 +41,65 @@
         }
     }
 }
+
+
+/*-- MEDIA QUERIES --*/
+
+@media( max-width: 1200px ) {
+    .gallery__images {
+        width: 85%;
+    }
+}
+
+@media( max-width: 990px ) {
+    .gallery__images {
+        img {
+            height: 15rem !important;
+        }
+    }
+}
+
+@media( max-width: 750px ) {
+    .gallery {
+        &__heading {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            h3 {
+                width: 80%;
+            }
+        }
+        
+        &__images {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            &--list {
+                flex-direction: column;
+                flex-wrap: nowrap;
+                
+                li {
+                    width: 90%;
+                    margin: .5rem auto;
+                }
+                
+                img {
+                    height: 20rem !important;
+                }
+            }
+        }
+    }
+}
+
+@media( max-width: 540px ) {
+    .gallery__images {
+        width: 100%;
+    }
+}
+
+
+
+
+

@@ -58,7 +58,7 @@
                 }
                 
                 button {
-                    width: 30%;
+                    width: 9rem;
                     border: none;
                     background-color: orange;
                     color: white;
@@ -94,3 +94,57 @@
         }
     }
 }
+
+
+/*-- MEDIA QUERIES --*/
+
+@media( max-width: 770px ) {
+    .contact {
+        
+        &__heading {
+            margin-bottom: 3rem;
+            
+            h1 {
+               font-size: 2.2rem; 
+            }
+            
+            h3 {
+                width: 80%;
+                margin-bottom: 0;
+            }
+        }
+    
+       &__flex {
+           flex-direction: column;
+           margin-top: 0;
+        
+        &--form {
+            form {
+              width: 100%; 
+              margin-bottom: 3rem;
+              margin-top: 0;
+            }
+            
+            input {
+                width: 98%;
+            }
+        }
+        
+        &--address {
+            
+            img {
+                width: 100%;
+            }
+        }
+    }
+  }
+}
+
+@media( max-width: 530px ) {
+    .contact__flex {
+        width: 95%;
+    }
+}
+
+
+
