@@ -30,6 +30,12 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    transition: background-color .5s;
+                }
+                
+                &--div:hover {
+                    cursor: pointer;
+                    background-color: lighten(black, 30%);
                 }
                 
                 img {

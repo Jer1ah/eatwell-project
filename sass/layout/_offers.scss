@@ -46,6 +46,12 @@
                 border: none;
                 font-size: .8rem;
                 margin: 2rem auto 3rem;
+                transition: background-color .5s;
+            }
+            
+            button:hover {
+                cursor: pointer;
+                background-color: darken(orange, 10%);
             }
         }
     }

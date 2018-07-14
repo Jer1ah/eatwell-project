@@ -60,6 +60,12 @@
                 font-size: .9rem;
                 margin: 1rem auto 3rem;
                 border: none;
+                transition: background-color .5s;
+            }
+            
+            button:hover {
+                background-color: darken(orange, 10%);
+                cursor: pointer;
             }
         }
     }

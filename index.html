@@ -6,6 +6,8 @@
   <title>EatWell</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="css/lightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <link href="css/main.css" rel="stylesheet">
   </head>
 <body>
@@ -23,14 +25,14 @@
                 <li class="navigation__list--item active"><a href="/">Home</a></li>
                 <li class="navigation__list--item"><a href="#about">About</a></li>
                 <li class="navigation__list--item"><a href="#offer">Offer</a></li>
-                <li class="navigation__list--item"><a href="#">Menu</a></li>
-                <li class="navigation__list--item"><a href="#">News</a></li>
-                <li class="navigation__list--item"><a href="#">Gallery</a></li>
-                <li class="navigation__list--item"><a href="#">Contact</a></li>
+                <li class="navigation__list--item"><a href="#menu">Menu</a></li>
+                <li class="navigation__list--item"><a href="#news">News</a></li>
+                <li class="navigation__list--item"><a href="#gallery">Gallery</a></li>
+                <li class="navigation__list--item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </div>
-    <div class="header__heading">
+    <div class="header__heading animated fadeIn">
         <h1>Welcome To EatWell</h1>
         <p>Come and eat well with our delicious &amp; healthy foods.</p>
         <button>Reservation</button>
@@ -92,7 +94,7 @@
         </div>
     </div> <!-- offers__nav div end -->
 </div> <!-- offers div end -->
-<div class="menu">
+<div class="menu" id="menu">
     <div class="menu__heading">
         <h1>Delicious Menu</h1>
         <h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
@@ -157,7 +159,7 @@
         </div> <!-- menu__items--item div end -->
     </div> <!-- menu__items div end -->
 </div> <!-- menu div end -->
-<div class="news">
+<div class="news" id="news">
     <div class="news__heading">
         <h1>News</h1>
         <h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
@@ -183,7 +185,7 @@
         </div> <!-- news__blogs--blog div end -->
     </div> <!-- news__blogs div end -->
 </div> <!-- news div end -->
-<div class="gallery">
+<div class="gallery" id="gallery">
     <div class="gallery__heading">
         <h1>Gallery</h1>
         <h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
@@ -199,7 +201,7 @@
         </ul> <!-- gallery__images--list end -->
     </div> <!-- gallery__images div end -->
 </div> <!-- gallery div end -->
-<div class="contact">
+<div class="contact" id="contact">
     <div class="contact__heading">
         <h1>Get In Touch</h1>
         <h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
@@ -225,7 +227,7 @@
         </div> <!-- contact__flex--address div end -->
     </div> <!-- contact__flex div end -->
 </div> <!-- contact div end -->
-<footer class="footer">
+<footer class="footer" id="footer">
     <div class="footer__flex">
         <div class="footer__flex--info">
             <div class="about__info">
@@ -281,7 +283,8 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="js/lightbox.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="scripts/lightbox.min.js"></script>
+  <script src="scripts/require.js"></script>
+  <script src="scripts/main.js"></script>
  </body>
 </html>

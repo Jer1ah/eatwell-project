@@ -5,6 +5,15 @@ html, body {
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif; }
 
+/*-- KEYFRAMES --*/
+@keyframes fadeFromBottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
 /*-- LAYOUT FOLDER --*/
 .header {
   height: 100vh;
@@ -197,7 +206,11 @@ html, body {
         color: white;
         border: none;
         font-size: .8rem;
-        margin: 2rem auto 3rem; }
+        margin: 2rem auto 3rem;
+        transition: background-color .5s; }
+      .offers__slide--card button:hover {
+        cursor: pointer;
+        background-color: #cc8400; }
   .offers__heading {
     text-align-last: center;
     padding: 1px;
@@ -406,7 +419,11 @@ html, body {
         padding: .7rem 1.2rem;
         font-size: .9rem;
         margin: 1rem auto 3rem;
-        border: none; }
+        border: none;
+        transition: background-color .5s; }
+      .news__blogs--blog button:hover {
+        background-color: #cc8400;
+        cursor: pointer; }
 
 /*-- MEDIA QUERIES --*/
 @media (max-width: 1200px) {
@@ -544,7 +561,11 @@ html, body {
           color: white;
           padding: 1.1rem .8rem;
           margin: 1rem 0 2rem;
-          font-size: .9rem; }
+          font-size: .9rem;
+          transition: background-color .5s; }
+        .contact__flex--form form button:hover {
+          background-color: #cc8400;
+          cursor: pointer; }
     .contact__flex--address {
       flex: 1; }
       .contact__flex--address h4 {
@@ -610,7 +631,11 @@ html, body {
           background-color: #3b3b3b;
           display: flex;
           justify-content: center;
-          align-items: center; }
+          align-items: center;
+          transition: background-color .5s; }
+        .footer__flex--social--icons--div:hover {
+          cursor: pointer;
+          background-color: #4d4d4d; }
         .footer__flex--social--icons img {
           width: 1.5rem; }
       .footer__flex--social p {

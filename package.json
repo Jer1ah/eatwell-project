@@ -1,0 +1,26 @@
+{
+  "name": "eatwell-project",
+  "version": "1.0.0",
+  "description": "json file for my eatwell website",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jer1ah/eatwell-project.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Jeriah Bowers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jer1ah/eatwell-project/issues"
+  },
+  "homepage": "https://github.com/Jer1ah/eatwell-project#readme",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "is-in-viewport": "^3.0.4"
+  }
+}
