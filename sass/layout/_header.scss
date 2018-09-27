@@ -93,9 +93,9 @@
         }
         
         button:hover {
-            background-color: darken(white, 5%);
-            color: black;
+            background-color: orange;
             cursor: pointer;
+            border-color: orange;
         }
     }
 }
