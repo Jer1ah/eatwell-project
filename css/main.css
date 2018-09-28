@@ -21,11 +21,7 @@ html, body {
 .header {
   height: 100vh;
   padding: 1px;
-<<<<<<< HEAD
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/store_front.jpg");
-=======
-  background-image: url("../img/store_front.jpg");
->>>>>>> 8232e60a9d2cceb0a444f183956ee8c469bd148b
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/store_front.jpg");
   background-size: cover;
 }
 .header .phone__nav {
